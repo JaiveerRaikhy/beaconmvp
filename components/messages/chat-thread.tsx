@@ -263,7 +263,7 @@ export function ChatThread({
           </Button>
         </Link>
 
-        <div className="w-10 h-10 rounded-full bg-slate-700/50 overflow-hidden flex-shrink-0">
+        <div className="w-10 h-10 rounded-full bg-stone-300/60 overflow-hidden flex-shrink-0">
           {otherPerson.profile_picture_url ? (
             <img
               src={otherPerson.profile_picture_url}

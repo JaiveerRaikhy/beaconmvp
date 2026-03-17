@@ -7,7 +7,7 @@ interface MatchScoreBarProps {
 
 const tierConfig = {
   high: { label: 'High Match', color: 'bg-emerald-500' },
-  good: { label: 'Good Match', color: 'bg-amber-500' },
+  good: { label: 'Good Match', color: 'bg-orange-600' },
   fair: { label: 'Fair Match', color: 'bg-muted-foreground' },
 }
 
@@ -20,7 +20,7 @@ export function MatchScoreBar({ score, tier }: MatchScoreBarProps) {
         <span className="text-muted-foreground">{config.label}</span>
         <span className="text-muted-foreground">{score}%</span>
       </div>
-      <div className="h-2 bg-slate-700/50 rounded-full overflow-hidden">
+      <div className="h-2 bg-stone-200 rounded-full overflow-hidden">
         <div
           className={cn('h-full rounded-full transition-all', config.color)}
           style={{ width: `${score}%` }}

@@ -11,13 +11,13 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-gradient-to-br from-[#dd973c] to-[#c87b33] text-white shadow-[0_1px_3px_rgba(221,151,60,0.3)] hover:shadow-[0_4px_12px_rgba(221,151,60,0.4)] hover:-translate-y-px active:translate-y-0",
+          "bg-gradient-to-br from-[#c8612a] to-[#a84e20] text-white shadow-[0_1px_3px_rgba(200,97,42,0.3)] hover:shadow-[0_4px_12px_rgba(200,97,42,0.4)] hover:-translate-y-px active:translate-y-0",
         outline:
-          "border-amber-300/30 bg-transparent text-secondary-foreground hover:bg-amber-300/5 hover:border-[rgba(221,151,60,0.3)] aria-expanded:bg-accent aria-expanded:text-accent-foreground",
+          "border-orange-300/30 bg-transparent text-secondary-foreground hover:bg-orange-300/5 hover:border-[rgba(200,97,42,0.3)] aria-expanded:bg-accent aria-expanded:text-accent-foreground",
         secondary:
-          "bg-amber-300/10 text-secondary-foreground border-amber-300/20 hover:bg-[rgba(221,151,60,0.15)] hover:border-[rgba(221,151,60,0.3)]",
+          "bg-orange-300/10 text-secondary-foreground border-orange-300/20 hover:bg-[rgba(200,97,42,0.15)] hover:border-[rgba(200,97,42,0.3)]",
         ghost:
-          "hover:bg-amber-300/10 hover:text-foreground aria-expanded:bg-accent aria-expanded:text-foreground",
+          "hover:bg-orange-300/10 hover:text-foreground aria-expanded:bg-accent aria-expanded:text-foreground",
         destructive:
           "bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40",
         link: "text-primary underline-offset-4 hover:underline",

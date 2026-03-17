@@ -24,7 +24,7 @@ export default function GlobalError({
           </div>
           <button
             onClick={reset}
-            className="inline-flex items-center justify-center rounded-md bg-[#dd973c] px-6 py-2.5 text-sm font-medium text-white hover:bg-[#c87b33] transition-colors focus:outline-none focus:ring-2 focus:ring-[#dd973c] focus:ring-offset-2 focus:ring-offset-[#faf9f6]"
+            className="inline-flex items-center justify-center rounded-md bg-[#c8612a] px-6 py-2.5 text-sm font-medium text-white hover:bg-[#a84e20] transition-colors focus:outline-none focus:ring-2 focus:ring-[#c8612a] focus:ring-offset-2 focus:ring-offset-[#f7f0e6]"
           >
             Try again
           </button>

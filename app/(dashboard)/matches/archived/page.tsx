@@ -57,7 +57,7 @@ export default async function ArchivedMatchesPage() {
             return (
               <Card key={match.id} className="opacity-75">
                 <CardContent className="flex items-center gap-4 py-4">
-                  <div className="w-12 h-12 rounded-full bg-slate-700/50 overflow-hidden flex-shrink-0">
+                  <div className="w-12 h-12 rounded-full bg-stone-300/60 overflow-hidden flex-shrink-0">
                     {person.profile_picture_url ? (
                       <img
                         src={person.profile_picture_url}

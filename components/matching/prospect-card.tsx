@@ -81,7 +81,7 @@ export function ProspectCard({
       <CardContent className="space-y-4">
         {/* Header */}
         <div className="flex items-start gap-3">
-          <div className="w-14 h-14 rounded-full bg-slate-700/50 overflow-hidden flex-shrink-0 flex items-center justify-center">
+          <div className="w-14 h-14 rounded-full bg-stone-300/60 overflow-hidden flex-shrink-0 flex items-center justify-center">
             {prospect.profile_picture_url ? (
               <img
                 src={prospect.profile_picture_url}

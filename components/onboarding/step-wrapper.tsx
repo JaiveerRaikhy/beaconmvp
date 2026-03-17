@@ -13,7 +13,7 @@ export function StepWrapper({ title, subtitle, children }: StepWrapperProps) {
           <p className="text-muted-foreground mt-1">{subtitle}</p>
         )}
       </div>
-      <div className="bg-card rounded-xl border border-amber-200/30 p-6">
+      <div className="bg-card rounded-xl border border-orange-200/30 p-6">
         {children}
       </div>
     </div>

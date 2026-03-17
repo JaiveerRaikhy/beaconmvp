@@ -84,7 +84,7 @@ export function Resume() {
             <Loader2 className="w-10 h-10 text-emerald-500 animate-spin" />
           ) : (
             <>
-              <div className="w-16 h-16 rounded-full bg-slate-700/50 flex items-center justify-center">
+              <div className="w-16 h-16 rounded-full bg-stone-300/60 flex items-center justify-center">
                 <FileText className="w-8 h-8 text-muted-foreground" />
               </div>
               <div className="text-center">

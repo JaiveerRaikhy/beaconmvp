@@ -16,7 +16,7 @@ export function BottomNav() {
   const pathname = usePathname()
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 glass border-t border-amber-200/30 md:hidden z-50" aria-label="Mobile navigation">
+    <nav className="fixed bottom-0 left-0 right-0 glass border-t border-orange-200/30 md:hidden z-50" aria-label="Mobile navigation">
       <div className="flex justify-around items-center h-16">
         {navItems.map((item) => {
           const isActive = pathname.startsWith(item.href)

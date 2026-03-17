@@ -65,12 +65,12 @@
 /* Dark theme is default (applied via .dark class on <html>) */
 :root {
   /* Beacon brand colors */
-  --beacon-navy: #faf9f6;
-  --beacon-navy-light: #f5f3ee;
-  --beacon-navy-lighter: #ede9e0;
-  --beacon-blue: #dd973c;
-  --beacon-amber: #dd973c;
-  --beacon-purple: #dd973c;
+  --beacon-navy: #f7f0e6;
+  --beacon-navy-light: #f2e9dc;
+  --beacon-navy-lighter: #ead9c8;
+  --beacon-blue: #c8612a;
+  --beacon-amber: #c8612a;
+  --beacon-purple: #c8612a;
   --beacon-success: #10B981;
 
   /* Design system shadows */
@@ -78,8 +78,8 @@
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 8px 25px rgba(0, 0, 0, 0.12);
   --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.15);
-  --shadow-blue: 0 4px 14px rgba(221, 151, 60, 0.2);
-  --shadow-amber: 0 4px 14px rgba(221, 151, 60, 0.2);
+  --shadow-blue: 0 4px 14px rgba(200, 97, 42, 0.2);
+  --shadow-amber: 0 4px 14px rgba(200, 97, 42, 0.2);
 
   /* Light mode fallback (unused - dark is default) */
   --background: oklch(1 0 0);
@@ -118,61 +118,61 @@
 
 /* Beacon Light Theme - Primary */
 .dark {
-  /* Background layers: cream/beige */
-  --background: #faf9f6;                         /* Cream background */
+  /* Background layers: warm parchment */
+  --background: #f7f0e6;                         /* Warm parchment background */
   --foreground: #000000;                         /* Black text */
 
-  /* Card: slightly darker cream */
-  --card: #f5f3ee;                               /* Card background */
+  /* Card: slightly darker warm cream */
+  --card: #f2e9dc;                               /* Card background */
   --card-foreground: #000000;                    /* Black text */
 
   /* Popover */
-  --popover: #f5f3ee;                            /* #F5F3EE */
+  --popover: #f2e9dc;                            /* Warm cream */
   --popover-foreground: #000000;                 /* Black */
 
-  /* Primary: Gold accent */
-  --primary: #dd973c;                            /* Gold accent */
+  /* Primary: Burnt orange accent */
+  --primary: #c8612a;                            /* Burnt orange */
   --primary-foreground: #ffffff;                 /* White */
 
-  /* Secondary: light cream */
-  --secondary: #ede9e0;                          /* Light cream */
+  /* Secondary: light warm cream */
+  --secondary: #ead9c8;                          /* Light warm cream */
   --secondary-foreground: #000000;               /* Black */
 
   /* Muted */
-  --muted: #e8e4d9;                             /* Muted cream */
+  --muted: #e8ddd0;                             /* Muted warm cream */
   --muted-foreground: #666666;                  /* Gray text */
 
-  /* Accent: gold for interactive elements */
-  --accent: #dd973c;                            /* Gold */
+  /* Accent: burnt orange for interactive elements */
+  --accent: #c8612a;                            /* Burnt orange */
   --accent-foreground: #000000;                 /* Black */
 
   /* Semantic */
   --destructive: #EF4444;                       /* Red */
 
   /* Borders and inputs */
-  --border: #d9d4c7;                            /* Subtle border */
-  --input: #f0ebe2;                             /* Input background */
-  --ring: #dd973c;                              /* Gold focus ring */
+  --border: #d6c8b4;                            /* Warm tan border */
+  --input: #ede3d6;                             /* Input background */
+  --ring: #c8612a;                              /* Burnt orange focus ring */
 
   /* Chart colors */
-  --chart-1: #dd973c;                           /* Gold */
-  --chart-2: #d9873a;                           /* Darker gold */
-  --chart-3: #c87b33;                           /* Even darker gold */
-  --chart-4: #dd973c;                           /* Gold */
+  --chart-1: #c8612a;                           /* Burnt orange */
+  --chart-2: #b85925;                           /* Darker orange */
+  --chart-3: #a84e20;                           /* Even darker orange */
+  --chart-4: #c8612a;                           /* Burnt orange */
   --chart-5: #999999;                           /* Gray */
 
   /* Radius - slightly larger for premium feel */
   --radius: 0.5rem;
 
   /* Sidebar */
-  --sidebar: #faf9f6;                           /* Cream background */
+  --sidebar: #f7f0e6;                           /* Warm parchment */
   --sidebar-foreground: #000000;                /* Black */
-  --sidebar-primary: #dd973c;                   /* Gold */
+  --sidebar-primary: #c8612a;                   /* Burnt orange */
   --sidebar-primary-foreground: #ffffff;        /* White */
-  --sidebar-accent: #ede9e0;                    /* Light cream */
+  --sidebar-accent: #ead9c8;                    /* Light warm cream */
   --sidebar-accent-foreground: #000000;         /* Black */
-  --sidebar-border: #d9d4c7;                    /* Border */
-  --sidebar-ring: #dd973c;                      /* Gold ring */
+  --sidebar-border: #d6c8b4;                    /* Warm tan border */
+  --sidebar-ring: #c8612a;                      /* Burnt orange ring */
 }
 
 @layer base {
@@ -193,48 +193,48 @@
 
 /* Glassmorphism */
 .glass {
-  background: rgba(250, 249, 246, 0.9);
+  background: rgba(247, 240, 230, 0.9);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(221, 151, 60, 0.15);
+  border: 1px solid rgba(200, 97, 42, 0.15);
 }
 
 /* Glass card variant */
 .glass-card {
-  background: rgba(245, 243, 238, 0.85);
+  background: rgba(242, 233, 220, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(221, 151, 60, 0.1);
+  border: 1px solid rgba(200, 97, 42, 0.1);
 }
 
 /* Gradient backgrounds */
 .gradient-primary {
-  background: linear-gradient(135deg, #faf9f6 0%, #f5f3ee 100%);
+  background: linear-gradient(135deg, #f7f0e6 0%, #f2e9dc 100%);
 }
 
 .gradient-accent {
-  background: linear-gradient(135deg, #dd973c 0%, #c87b33 100%);
+  background: linear-gradient(135deg, #c8612a 0%, #a84e20 100%);
 }
 
 /* Beacon primary button gradient */
 .btn-gradient {
-  background: linear-gradient(135deg, #dd973c, #c87b33);
-  box-shadow: 0 1px 3px rgba(221, 151, 60, 0.3);
+  background: linear-gradient(135deg, #c8612a, #a84e20);
+  box-shadow: 0 1px 3px rgba(200, 97, 42, 0.3);
   transition: all 0.2s ease;
 }
 
 .btn-gradient:hover {
-  box-shadow: 0 4px 12px rgba(221, 151, 60, 0.4);
+  box-shadow: 0 4px 12px rgba(200, 97, 42, 0.4);
   transform: translateY(-1px);
 }
 
 /* Glow effects */
 .glow-blue {
-  box-shadow: 0 0 20px rgba(221, 151, 60, 0.15);
+  box-shadow: 0 0 20px rgba(200, 97, 42, 0.15);
 }
 
 .glow-amber {
-  box-shadow: 0 0 20px rgba(221, 151, 60, 0.15);
+  box-shadow: 0 0 20px rgba(200, 97, 42, 0.15);
 }
 
 /* Smooth transitions for all interactive elements */

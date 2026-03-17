@@ -34,7 +34,7 @@ export function Sidebar({ user }: SidebarProps) {
   }
 
   return (
-    <aside className="hidden md:flex flex-col w-64 min-h-screen bg-background border-r border-amber-200/30" role="complementary" aria-label="Sidebar navigation">
+    <aside className="hidden md:flex flex-col w-64 min-h-screen bg-background border-r border-orange-200/30" role="complementary" aria-label="Sidebar navigation">
       {/* Logo */}
       <div className="p-6">
         <Link href="/home" aria-label="Beacon home" className="h-24 w-24 relative block">
@@ -58,7 +58,7 @@ export function Sidebar({ user }: SidebarProps) {
                     'flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm transition-all duration-200',
                     isActive
                       ? 'bg-primary/10 text-primary font-medium'
-                      : 'text-muted-foreground hover:bg-amber-200/10 hover:text-foreground'
+                      : 'text-muted-foreground hover:bg-orange-200/10 hover:text-foreground'
                   )}
                 >
                   <Icon className="w-5 h-5" aria-hidden="true" />
@@ -71,9 +71,9 @@ export function Sidebar({ user }: SidebarProps) {
       </nav>
 
       {/* User section */}
-      <div className="p-4 border-t border-amber-200/30">
+      <div className="p-4 border-t border-orange-200/30">
         <div className="flex items-center gap-3 mb-4">
-          <div className="w-10 h-10 rounded-full bg-slate-700/50 overflow-hidden flex-shrink-0">
+          <div className="w-10 h-10 rounded-full bg-stone-300/60 overflow-hidden flex-shrink-0">
             {user.profile_picture_url ? (
               <img
                 src={user.profile_picture_url}

@@ -25,7 +25,7 @@ export function RoleSelection() {
           <div className="flex items-start gap-4">
             <div className={cn(
               'w-10 h-10 rounded-full flex items-center justify-center shrink-0',
-              isSeeker ? 'bg-emerald-500 text-white' : 'bg-slate-700/50 text-muted-foreground'
+              isSeeker ? 'bg-emerald-500 text-white' : 'bg-stone-300/60 text-muted-foreground'
             )}>
               {isSeeker ? <CheckCircle2 className="w-5 h-5" /> : <Search className="w-5 h-5" />}
             </div>
@@ -49,7 +49,7 @@ export function RoleSelection() {
           <div className="flex items-start gap-4">
             <div className={cn(
               'w-10 h-10 rounded-full flex items-center justify-center shrink-0',
-              isGiver ? 'bg-emerald-500 text-white' : 'bg-slate-700/50 text-muted-foreground'
+              isGiver ? 'bg-emerald-500 text-white' : 'bg-stone-300/60 text-muted-foreground'
             )}>
               {isGiver ? <CheckCircle2 className="w-5 h-5" /> : <Heart className="w-5 h-5" />}
             </div>
@@ -65,7 +65,7 @@ export function RoleSelection() {
       </div>
 
       {!isSeeker && !isGiver && (
-        <p className="text-sm text-amber-600 text-center">
+        <p className="text-sm text-orange-700 text-center">
           Please select at least one role to continue
         </p>
       )}

@@ -36,7 +36,7 @@ export function MatchCard({
     <Card>
       <CardContent className="flex items-center gap-4 py-4">
         {/* Avatar */}
-        <div className="w-12 h-12 rounded-full bg-slate-700/50 overflow-hidden flex-shrink-0">
+        <div className="w-12 h-12 rounded-full bg-stone-300/60 overflow-hidden flex-shrink-0">
           {person.profile_picture_url ? (
             <img
               src={person.profile_picture_url}
@@ -76,7 +76,7 @@ export function MatchCard({
             {formatDistanceToNow(new Date(matchedAt), { addSuffix: true })}
           </p>
           {daysLeft != null && daysLeft <= EXPIRY_WARNING_DAYS && daysLeft >= 0 && (
-            <p className="text-xs text-amber-500 font-medium">
+            <p className="text-xs text-orange-600 font-medium">
               {daysLeft === 0 ? 'Expires today' : `${daysLeft}d left`}
             </p>
           )}

@@ -92,7 +92,7 @@ export function MessageBubble({ matchId, message, isOwn, showAvatar }: MessageBu
       {!isOwn && (
         <div className="w-8 flex-shrink-0">
           {showAvatar && (
-            <div className="w-8 h-8 rounded-full bg-slate-700/50 overflow-hidden">
+            <div className="w-8 h-8 rounded-full bg-stone-300/60 overflow-hidden">
               {message.sender.profile_picture_url ? (
                 <img
                   src={message.sender.profile_picture_url}
@@ -118,7 +118,7 @@ export function MessageBubble({ matchId, message, isOwn, showAvatar }: MessageBu
           'rounded-2xl px-4 py-2',
           isOwn
             ? 'bg-primary text-primary-foreground rounded-br-sm'
-            : 'bg-slate-700/50 text-foreground rounded-bl-sm'
+            : 'bg-stone-200 text-foreground rounded-bl-sm'
         )}>
           <p className="text-sm whitespace-pre-wrap break-words">{message.content}</p>
 

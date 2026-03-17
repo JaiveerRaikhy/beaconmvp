@@ -67,11 +67,11 @@ export function ProspectDetailModal({
 
       {/* Modal */}
       <div
-        className="relative bg-card rounded-t-xl sm:rounded-xl w-full sm:max-w-lg max-h-[85vh] overflow-y-auto border border-amber-200/30"
+        className="relative bg-card rounded-t-xl sm:rounded-xl w-full sm:max-w-lg max-h-[85vh] overflow-y-auto border border-orange-200/30"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="sticky top-0 bg-card border-b border-amber-200/30 px-4 py-3 flex items-center justify-between">
+        <div className="sticky top-0 bg-card border-b border-orange-200/30 px-4 py-3 flex items-center justify-between">
           <h2 className="font-semibold">Prospect Profile</h2>
           <button
             onClick={onClose}
@@ -84,7 +84,7 @@ export function ProspectDetailModal({
         <div className="p-4 space-y-5">
           {/* Profile header */}
           <div className="flex items-start gap-4">
-            <div className="w-16 h-16 rounded-full bg-slate-700/50 overflow-hidden flex-shrink-0 flex items-center justify-center">
+            <div className="w-16 h-16 rounded-full bg-stone-300/60 overflow-hidden flex-shrink-0 flex items-center justify-center">
               {prospect.profile_picture_url ? (
                 <img
                   src={prospect.profile_picture_url}
@@ -218,7 +218,7 @@ export function ProspectDetailModal({
 
         {/* Actions */}
         {!isDecided && (
-          <div className="sticky bottom-0 bg-card border-t border-amber-200/30 px-4 py-3 flex gap-3">
+          <div className="sticky bottom-0 bg-card border-t border-orange-200/30 px-4 py-3 flex gap-3">
             <Button
               variant="outline"
               className="flex-1"

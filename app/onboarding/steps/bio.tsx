@@ -27,7 +27,7 @@ export function Bio() {
         </p>
       </div>
 
-      <div className="bg-slate-700/30 rounded-lg p-4 space-y-2">
+      <div className="bg-stone-100/50 rounded-lg p-4 space-y-2">
         <p className="text-sm font-medium">Tips for a great bio:</p>
         <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
           <li>Mention your background or what you studied</li>

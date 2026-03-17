@@ -27,7 +27,7 @@ export function Navbar({ user }: NavbarProps) {
   }
 
   return (
-    <header className="sticky top-0 z-50 border-b border-amber-200/30 glass" role="banner">
+    <header className="sticky top-0 z-50 border-b border-orange-200/30 glass" role="banner">
       <div className="container mx-auto flex h-14 items-center justify-between px-4">
         <Link href="/home" aria-label="Beacon home" className="h-12 w-12 relative">
           <Image src="/logo.png" alt="Beacon" fill className="object-contain" />

@@ -54,7 +54,7 @@ export function ProfilePictureUpload({
   return (
     <div className="relative">
       <div
-        className="w-32 h-32 rounded-full bg-amber-100/30 flex items-center justify-center overflow-hidden cursor-pointer border-2 border-dashed border-amber-300/30 hover:border-primary transition-colors"
+        className="w-32 h-32 rounded-full bg-orange-100/30 flex items-center justify-center overflow-hidden cursor-pointer border-2 border-dashed border-orange-300/30 hover:border-primary transition-colors"
         onClick={() => fileInputRef.current?.click()}
       >
         {currentUrl ? (

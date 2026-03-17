@@ -18,7 +18,7 @@ export function ProfileHeader({ profile }: ProfileHeaderProps) {
 
   return (
     <div className="flex flex-col items-center text-center">
-      <div className="w-24 h-24 rounded-full bg-slate-700/50 overflow-hidden mb-4">
+      <div className="w-24 h-24 rounded-full bg-stone-300/60 overflow-hidden mb-4">
         {profile?.profile_picture_url ? (
           <img
             src={profile.profile_picture_url}

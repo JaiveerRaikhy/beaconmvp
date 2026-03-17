@@ -94,7 +94,7 @@ export function ConversationList({ conversations, currentUserId }: ConversationL
                 <div className="flex items-center gap-3">
                   {/* Avatar */}
                   <div className="relative flex-shrink-0">
-                    <div className="w-12 h-12 rounded-full bg-slate-700/50 overflow-hidden">
+                    <div className="w-12 h-12 rounded-full bg-stone-300/60 overflow-hidden">
                       {otherPerson.profile_picture_url ? (
                         <img
                           src={otherPerson.profile_picture_url}

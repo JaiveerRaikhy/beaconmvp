@@ -18,7 +18,7 @@ interface ProspectFiltersProps {
 
 const TIERS = [
   { value: 'high', label: 'High Match', color: 'bg-emerald-500' },
-  { value: 'good', label: 'Good Match', color: 'bg-amber-500' },
+  { value: 'good', label: 'Good Match', color: 'bg-orange-600' },
   { value: 'fair', label: 'Fair Match', color: 'bg-muted-foreground' },
 ]
 

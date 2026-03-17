@@ -152,7 +152,7 @@ export function MessageInput({ onSend, onSchedule, onTyping, disabled }: Message
                   </button>
                 </div>
               ) : (
-                <div className="flex items-center gap-1 bg-slate-700/30 rounded px-2 py-1 text-sm">
+                <div className="flex items-center gap-1 bg-stone-100/60 rounded px-2 py-1 text-sm">
                   <span className="truncate max-w-[120px]">{attachment.file.name}</span>
                   <button
                     type="button"
